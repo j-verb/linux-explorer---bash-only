@@ -1,0 +1,16 @@
+Source: le-bash
+Section: utils
+Priority: optional
+Maintainer: John Verber <verber001@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://github.com/j-verb/linux-explorer---bash-only
+
+Package: le-bash
+Architecture: all
+Depends: ${misc:Depends}, bash, curl, less
+Suggests: bsdextrautils, file, man-db, tealdeer, util-linux
+Description: Bash command inspector
+ A prompt-driven Bash utility for viewing local command information and
+ accessing manual pages, TLDR pages, and cheat sheets.

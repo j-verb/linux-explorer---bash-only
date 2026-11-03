@@ -1,0 +1,5 @@
+le-bash (1.0.0-1) unstable; urgency=medium
+
+  * Create an independently installable package for the Bash command inspector.
+
+ -- John Verber <verber001@gmail.com>  Mon, 02 Nov 2026 18:00:00 -0800

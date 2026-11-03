@@ -1,0 +1,8 @@
+commands.txt
+*.deb
+*.buildinfo
+*.changes
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
+debian/le-bash/
